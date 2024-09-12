@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout - Multi-Museum Ticketing System</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            localStorage.removeItem('loggedIn');
+            window.location.href = 'index.html';
+        });
+    </script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <p>Logging out...</p>
+</body>
+</html>
